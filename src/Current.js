@@ -10,7 +10,6 @@ const Current = ({ time, cityName, data, index }) => {
   const humidity_daily = data.daily[index].humidity;
   const wind_speed_daily = data.daily[index].wind_speed;
   const { temp, state, humidity, wind_speed, id } = data;
-
   const capitalize =(s)=> s && s[0].toUpperCase() + s.slice(1);
 
   return (
